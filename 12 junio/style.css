@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap');
+body{
+    background-color: rgb(112, 139, 148);
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+h1{
+    font-size: 25px;
+}
+.web{
+    text-decoration: underline;
+    font-size: medium;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 200px;
+}
+.section{
+    background-color: #eeeaea;
+    border-radius: 7px;
+    display: flex;
+    padding: 50px;
+    margin-bottom: 1px;
+}
+.subsection{
+    width: 50%;
+}
+.perfil{
+    max-width: 95%;
+    max-height: 230px;
+    border-radius: 15px;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(60, 188, 37);
+    border-radius: 30px;
+}
+.status{
+    display: flex;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.p-status{
+    margin: 0 10px;
+}
+.description{
+    font-size: x-large;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+.bt-black{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: medium;
+}
+.bt-black:hover{
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+.bt-lined{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: medium; 
+    text-decoration: underline;
+}
+.bt-lined:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.item{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(207, 202, 202);
+}
+.logos-section{
+    display: flex;
+    justify-content: space-between;
+}
+.columns-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-text {
+    width: 50%;
+    padding: 20px;
+}
+.section2{
+    background-color: #eeeaea;
+    border-radius: 7px;
+    display: flex;
+    padding: 50px;
+    margin-bottom: 1px;
+}
+.subsection2{
+    width: 50%;
+}
+
